@@ -88,6 +88,20 @@ cd SerieMania-API_de_Series
 
 Não é necessário instalar dependências ou rodar servidor.
 
+---
+
+## 📌 Itens Não Implementados
+
+Os seguintes itens não foram implementados:
+
+- Página de Detalhes (Modal)
+- Filtros por gênero  
+- Ordenação por nota ou nome  
+- Acessibilidade avançada  
+- Deploy publicado (Vercel/Netlify)  
+
+---
+
 ## 👩‍💻 Autora
 
 Desenvolvido por Jullia Akutagawa.
