@@ -57,8 +57,11 @@ O layout foi desenvolvido utilizando CSS Grid e Media Queries.
 ## 🧠 Estrutura do Projeto
 
 /SerieMania-API_de_Series
+
 ├── index.html
+
 ├── style.css
+
 └── script.js
 
 - **index.html** → Estrutura da aplicação  
@@ -72,12 +75,14 @@ O layout foi desenvolvido utilizando CSS Grid e Media Queries.
 1. Clone o repositório:
 
 ```bash
-git clone URL_DO_REPOSITORIO
+git clone https://github.com/JulliaAtsumi/SerieMania-API_de_Series.git
+```
 
 2. Acesse a pasta do projeto:
 
 ```bash
-cd nome-do-projeto
+cd SerieMania-API_de_Series
+```
 
 3. Abra o arquivo index.html no navegador.
 
