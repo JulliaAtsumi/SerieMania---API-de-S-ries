@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>SérieMania - Séries de TV</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="app-header">
+    <div class="header-left">
+      <h1 class="app-title">SérieMania</h1>
+    </div>
+
+    <div class="header-center">
+      <form id="search-form" class="search-form">
+        <input
+          type="text"
+          id="search-input"
+          class="search-input"
+          placeholder="Buscar séries"
+          autocomplete="off"
+          required
+        />
+        <button type="submit" class="btn btn-primary">Buscar</button>
+      </form>
+    </div>
+
+    <nav class="header-right">
+      <button
+        type="button"
+        id="tab-results"
+        class="tab-button"
+        data-tab="results">
+        Resultados
+      </button>
+      <button
+        type="button"
+        id="tab-favorites"
+        class="tab-button"
+        data-tab="favorites">
+        Meus Favoritos
+      </button>
+    </nav>
+  </header>
+
+  <main class="app-main">
+    <section id="feedback" class="feedback" aria-live="polite"></section>
+
+    <section
+      id="results-section"
+      class="section section--visible"
+      aria-label="Resultados da busca"
+    >
+      <h2 class="section-title">Resultados</h2>
+      <div id="results-grid" class="card-grid"></div>
+    </section>
+
+    <section
+      id="favorites-section"
+      class="section"
+      aria-label="Favoritos"
+    >
+      <h2 class="section-title">Meus Favoritos</h2>
+      <div id="favorites-grid" class="card-grid"></div>
+    </section>
+  </main>
+
+  <footer class="app-footer">
+    <p>SérieMania &copy; <span id="current-year"></span> · Dados por TVMaze</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
